@@ -22,3 +22,13 @@
     color: #c4bfbf;
     background-color: #332E2B;
 }
+
+.create-cancel {
+    background-color: transparent;
+    color: black;
+}
+
+.create-save {
+    background-color: black;
+    color: white;
+}

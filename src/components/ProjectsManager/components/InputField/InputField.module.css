@@ -1,0 +1,20 @@
+.input-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.label {
+    text-transform: uppercase;
+}
+
+.input {
+    width: 100%;
+    padding: 4px 2px;
+    background-color: #E2DFDF;
+    color: black;
+    border: 0;
+    border-radius: 2px;
+}
