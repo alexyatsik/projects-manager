@@ -1,18 +1,10 @@
-import SideBar from "./components/SideBar.jsx";
-import styled from "styled-components";
-import "./projects-manager.css";
-
-const Manager = styled.div`
-	position: relative;
-	width: 100%;
-	height: 100%;
-	font-family: Arial;
-`;
+import Sidebar from "./components/Sidebar/Sidebar.jsx";
+import classes from './ProjectsManager.module.css';
 
 export default function ProjectsManager() {
 	return (
-		<Manager>
-			<SideBar />
-		</Manager>
+		<div className={classes['projects-manager']}>
+			<Sidebar />
+		</div>
 	);
 }
