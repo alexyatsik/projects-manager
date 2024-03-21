@@ -3,4 +3,38 @@
     width: 100%;
     height: 100%;
     font-family: Arial;
+    padding-left: 400px;
+    box-sizing: border-box;
+    font-size: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-manager *, .projects-manager *:before, .projects-manager *:after {
+    box-sizing: inherit;
+}
+
+.projects-manager h1,
+.projects-manager h2,
+.projects-manager h3,
+.projects-manager h4,
+.projects-manager h5,
+.projects-manager h6,
+.projects-manager p,
+.projects-manager ol,
+.projects-manager ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+.projects-manager ol, .projects-manager ul {
+    list-style: none;
+}
+
+.projects-manager img {
+    max-width: 100%;
+    height: auto;
 }

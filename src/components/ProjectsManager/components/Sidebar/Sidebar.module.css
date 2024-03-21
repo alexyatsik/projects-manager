@@ -1,10 +1,3 @@
-.header {
-    text-transform: uppercase;
-    font-size: 30px;
-    font-weight: 600;
-    color: white;
-}
-
 .aside {
     position: absolute;
     bottom: 0;
@@ -19,3 +12,11 @@
     flex-direction: column;
     gap: 20px;
 }
+
+.aside .header {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
